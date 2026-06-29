@@ -128,7 +128,7 @@ class KohistaniTvViewModel(application: Application) : AndroidViewModel(applicat
             val profile = UserProfile(
                 username = "shahid_tv",
                 displayName = "شاہد خان کوہستانی",
-                bio = "کوہستانی ٹی وی کے آفیشل ٹرانسمیٹر۔ کوہستان کی خوبصورتی اور روایات کو دنیا بھر میں پھیلانا میرا مقصد ہے۔",
+                bio = "کوہستان رنگ کے آفیشل ٹرانسمیٹر۔ کوہستان کی خوبصورتی اور روایات کو دنیا بھر میں پھیلانا میرا مقصد ہے۔",
                 followersCount = 1420,
                 followingCount = 120,
                 likesCount = 5400,
@@ -260,7 +260,7 @@ class KohistaniTvViewModel(application: Application) : AndroidViewModel(applicat
             )
             repository.saveProfile(customProfile)
             _currentUsername.value = id
-            addNotification("آپ کا اکاؤنٹ بخوبی رجسٹرڈ ہو چکا ہے ($loginType)۔ کوہستانی ٹی وی میں خوش آمدید!", "سسٹم")
+            addNotification("آپ کا اکاؤنٹ بخوبی رجسٹرڈ ہو چکا ہے ($loginType)۔ کوہستان رنگ میں خوش آمدید!", "سسٹم")
         }
     }
 

@@ -70,7 +70,7 @@ fun DashboardScreen(
             ) {
                 Column {
                     Text(
-                        text = "کوہستانی ٹی وی",
+                        text = "کوہستان رنگ",
                         style = MaterialTheme.typography.headlineMedium,
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.primary

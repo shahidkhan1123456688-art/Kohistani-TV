@@ -93,7 +93,7 @@ class KohistaniTvRepository(private val videoDao: VideoDao) {
                     videoTitle = "سوات کوہستان کلچر شو براہ راست",
                     description = "سوات کوہستان کے سالانہ ثقافتی میلے سے براہِ راست احوال دیکھیں۔ پورے پاکستان سے آئے مہمانوں کا شاندار استقبال۔",
                     category = "ثقافت",
-                    soundName = "براہِ راست نشریات - کوہستانی ٹی وی",
+                    soundName = "براہِ راست نشریات - کوہستان رنگ",
                     likesCount = 1245,
                     commentsCount = 2,
                     sharesCount = 422,
@@ -197,7 +197,7 @@ class KohistaniTvRepository(private val videoDao: VideoDao) {
 
             // Seed profiles for creators
             val sampleProfiles = listOf(
-                UserProfile(username = "ranial_studio", displayName = "رانیال اسٹوڈیو", bio = "ثقافتی اور ہائی فائی کوہستانی محافل اور گیتوں کے آفیشل یوٹیوب اور کوہستانی ٹی وی پارٹنر۔", followersCount = 25000, followingCount = 14, likesCount = 14000),
+                UserProfile(username = "ranial_studio", displayName = "رانیال اسٹوڈیو", bio = "ثقافتی اور ہائی فائی کوہستانی محافل اور گیتوں کے آفیشل یوٹیوب اور کوہستان رنگ پارٹنر۔", followersCount = 25000, followingCount = 14, likesCount = 14000),
                 UserProfile(username = "sher_ali_official", displayName = "شیر علی کوہستانی", bio = "فنکارِ کوہستان۔ روایتی اور پاپ گیت۔ آپ سب کی محبت کا بے حد شکریہ۔", followersCount = 89000, followingCount = 45, likesCount = 76000),
                 UserProfile(username = "kohistani_vlog", displayName = "زاہد خان کوہستانی", bio = "آئیں میرے ساتھ اباسین کوہستان کی خوبصورتی کو ایکسپلور کریں۔ روزانہ نیا ولاگ۔", followersCount = 12000, followingCount = 90, likesCount = 33000),
                 UserProfile(username = "kohistan_comedy", displayName = "کوہستانی ڈرامہ وائنز", bio = "پورے گاؤں کا ہنس مکھ گروپ۔ ہماری ویڈیوز کا مقصد صرف تفریح پھیلانا ہے۔", followersCount = 54000, followingCount = 8, likesCount = 98000),
