@@ -159,7 +159,7 @@ fun ProfileRegistrationCard(
                 color = MaterialTheme.colorScheme.primary
             )
             Text(
-                text = "کوہستان رنگ نیٹ ورک کا حصہ بننے کے لیے درج ذیل معلومات فراہم کریں۔",
+                text = "کوہستانی ٹی وی نیٹ ورک کا حصہ بننے کے لیے درج ذیل معلومات فراہم کریں۔",
                 textAlign = TextAlign.Center,
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
